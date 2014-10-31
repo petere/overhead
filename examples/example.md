@@ -31,7 +31,7 @@ really simple slides with Markdown
 
 - Markdown/CommonMark
 - <100 lines of plain CSS
-- <100 of plain JavaScript
+- <100 lines of plain JavaScript
 
 </div>
 <div class="slide">
