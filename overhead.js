@@ -1,5 +1,4 @@
 (function() {
-
   "use strict";
 
   var allSlides = document.getElementsByClassName("slide");
@@ -89,5 +88,4 @@
 
     event.preventDefault();
   }, true);
-
 }());
