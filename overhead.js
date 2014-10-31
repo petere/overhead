@@ -44,7 +44,7 @@
 
     var h = window.location.hash;
     if (h.charAt(0) == "#")
-      h = window.location.hash.substr(1);
+      h = h.substr(1);
     var x = parseInt(h);
     if (!isNaN(x))
       currentSlide = x;
