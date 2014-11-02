@@ -15,22 +15,14 @@
     window.location.hash = currentSlide.toString();
   }
 
-  function reachedEnd() {
-    // do nothing for now
-  }
-
   function nextSlide() {
-    if (currentSlide == allSlides.length - 1)
-      reachedEnd();
-    else
+    if (currentSlide < allSlides.length - 1)
       currentSlide++;
     showCurrentSlide();
   }
 
   function prevSlide() {
-    if (currentSlide === 0)
-      reachedEnd();
-    else
+    if (currentSlide > 0)
       currentSlide--;
     showCurrentSlide();
   }
