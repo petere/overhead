@@ -62,6 +62,7 @@ h2 {
   body {
     color: white;
     background-color: black;
+    background: linear-gradient(black, rgb(20,20,41), rgb(82,77,97));
   }
 }
 
