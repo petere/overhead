@@ -46,6 +46,11 @@
       document.title = document.getElementsByTagName('h1')[0].textContent;
     }
 
+    for (var i = 0; i < allSlides.length; i++) {
+      /*jshint loopfunc: true */
+      allSlides[i].onclick = function() {};  // hack to make clickable on iOS
+    }
+
     handleHashChange();
   };
 
