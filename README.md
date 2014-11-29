@@ -65,9 +65,9 @@ appropriate):
 
 You can use just about any Markdown processor you want, but I
 recommend the [CommonMark](http://commonmark.org/)
-[reference implementation](https://github.com/jgm/stmd).
+[reference implementation](https://github.com/jgm/CommonMark).
 
-    stmd presentation.md >presentation.html
+    cmark presentation.md >presentation.html
 
 If you use [MultiMarkdown](http://fletcherpenney.net/multimarkdown/),
 you need to use the option `--process-html`.
