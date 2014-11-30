@@ -56,12 +56,14 @@
 
   window.addEventListener("keydown", function(event) {
     switch (event.keyCode) {
+    case 33: // page up
     case 37: // left
     case 38: // up
       prevSlide();
       break;
     case 13: // enter
     case 32: // space
+    case 34: // page down
     case 39: // right
     case 40: // down
       nextSlide();
