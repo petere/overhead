@@ -12,7 +12,7 @@
       else
         slide.classList.add("hidden-slide");
     }
-    window.location.hash = currentSlide.toString();
+    window.location.hash = currentSlide > 0 ? currentSlide.toString() : "";
   }
 
   function nextSlide() {
