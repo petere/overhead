@@ -71,3 +71,9 @@ h2 {
   padding-top: 3em;
   text-align: center;
 }
+
+/* highlight.js integration */
+.hljs {
+  background-color: transparent;
+  padding: 0;
+}

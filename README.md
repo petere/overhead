@@ -94,11 +94,12 @@ to trigger on those `<code>` elements.
 
 I recommend checking out
 
-- [highlight.js](https://highlightjs.org/)
+- [highlight.js](https://highlightjs.org/) (see [example](http://petere.github.io/overhead/examples/example.html))
 - [Prism](http://prismjs.com/)
 
 (You might have to do some work to make the themes of the highlighter
-match up with the colors of your presentation.)
+match up with the colors of your presentation.  The supplied CSS
+stylesheet contains some settings to match up with highlight.js.)
 
 ## Other features
 

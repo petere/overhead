@@ -1,3 +1,7 @@
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/dark.min.css">
+<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
 <link href="../overhead.css" rel="stylesheet">
 <script src="../overhead.js"></script>
 
@@ -36,10 +40,12 @@ really simple slides with Markdown
 </div>
 <div class="slide">
 
-## Source Code
+## Source code highlighting
+
+example with [highlight.js](https://highlightjs.org/):
 
 ```ruby
-# some source code
+# a comment
 if i > 0
   puts "positive"
 end
