@@ -40,7 +40,7 @@
 
   window.onhashchange = handleHashChange;
 
-  window.onload = function(){
+  document.addEventListener("DOMContentLoaded", function() {
     // set document title from first page title
     if (!document.title) {
       document.title = document.getElementsByTagName('h1')[0].textContent;
@@ -52,7 +52,7 @@
     }
 
     handleHashChange();
-  };
+  });
 
   window.addEventListener("keydown", function(event) {
     switch (event.keyCode) {
