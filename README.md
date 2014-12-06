@@ -97,9 +97,43 @@ I recommend checking out
 - [highlight.js](https://highlightjs.org/) (see [example](http://petere.github.io/overhead/examples/example.html))
 - [Prism](http://prismjs.com/)
 
-(You might have to do some work to make the themes of the highlighter
-match up with the colors of your presentation.  The supplied CSS
-stylesheet contains some settings to match up with highlight.js.)
+You might have to do some work to make the themes of the highlighter
+match up with the colors of your presentation.  Here are some tips,
+but note that the details might change depending on the respective
+tool.
+
+### highlight.js
+
+Pick a theme that matches your presentation (e.g., `dark` for the
+default Overhead theme), and then customize it like this:
+
+```css
+.hljs {
+  background-color: transparent;
+  padding: 0;
+}
+```
+
+The supplied CSS stylesheet already contains some settings to match up
+with highlight.js.
+
+Note that while highlight.js is available via CDNs, in the spirit of
+Overhead, you should get a local copy, lest the Internet flakes out
+when you hold your presentation.
+
+### Prism
+
+Pick a theme that matches your presentation (the provided themes don't
+match the default Overhead theme very well, but `okaidia` seems to
+work), and then customize it like this:
+
+```css
+code[class*="language-"],
+pre[class*="language-"] {
+  background-color: transparent;
+  padding: 0;
+}
+```
 
 ## Other features
 
