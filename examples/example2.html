@@ -1,0 +1,52 @@
+<!-- -*-markdown-*- -->
+<script src="http://spec.commonmark.org/js/commonmark.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var reader = new commonmark.DocParser();
+  var writer = new commonmark.HtmlRenderer();
+  var parsed = reader.parse(document.body.innerHTML);
+  document.body.innerHTML = writer.render(parsed);
+});
+</script>
+
+<link href="../overhead.css" rel="stylesheet">
+<script src="../overhead.js"></script>
+
+<div class="slide">
+
+# Overhead Example
+## converting from Markdown to HTML on the fly
+
+</div>
+<div class="slide">
+
+# Check the source
+
+The source of this file is actually Markdown (with some HTML decoration).
+
+</div>
+<div class="slide">
+
+# Magic!
+
+- Markdown is converted to HTML on the fly by JavaScript.
+- I use [CommonMark](https://github.com/jgm/CommonMark), but others are possible.
+    - Preferrably use a local copy for your live presentation.
+
+</div>
+<div class="slide">
+
+# Agility!
+
+- This allows you to skip the explicit conversion step.
+- Just edit and reload as you make changes.
+
+</div>
+<div class="slide">
+
+# Trick
+
+- The browser needs to think this is an HTML file, hence the `.html` extension.
+- The editor should think it's a Markdown file, hence the `-*-` tag.
+
+</div>

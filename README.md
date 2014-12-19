@@ -72,6 +72,10 @@ recommend the [CommonMark](http://commonmark.org/)
 If you use [MultiMarkdown](http://fletcherpenney.net/multimarkdown/),
 you need to use the option `--process-html`.
 
+It's also possible to wire things up so that the Markdown is processed
+on the fly in the browser.  See
+[this example](http://petere.github.io/overhead/examples/example2.html).
+
 ## Presenting
 
 Open the produced HTML file in a non-ancient browser, and navigate
