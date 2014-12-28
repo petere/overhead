@@ -51,7 +51,7 @@ might be a bit weird at first, but it's the Markdown way to do it, and
 all conforming tools will handle this, unlike custom syntax that other
 tools have made up.)
 
-I recommend using a level-1 header for the title page and any pages where you want to emphasis a single phrase, and level-2 headers for normal slides with content, but this is not a requirement.
+I recommend using a level-1 header for the title page and any pages where you want to emphasize a single phrase, and level-2 headers for normal slides with content, but this is not a requirement.
 
 Add the following to the top of your file (adjusting paths as
 appropriate):
