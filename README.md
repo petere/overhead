@@ -145,6 +145,7 @@ pre[class*="language-"] {
 - Printing is supported.  Just print, and you should get one page per
 slide.
 - There are URL fragments for direct linking to a slide.
+- Press `f` to enter full-screen mode, press `g` to exit.  You can also use the browser's native ways to activate full-screen or presentation mode, but this might be easier.
 
 ## Customizing
 

@@ -54,6 +54,20 @@
     handleHashChange();
   });
 
+  function requestFullscreen(element) {
+    var method = element.requestFullscreen || element.webkitRequestFullscreen || element.mozRequestFullScreen || element.msRequestFullscreen;
+
+    if (method)
+      method.call(element);
+  }
+
+  function exitFullscreen() {
+    var method = document.exitFullscreen || document.webkitExitFullscreen || document.mozCancelFullScreen || document.msExitFullscreen;
+
+    if (method)
+      method.call(document);
+  }
+
   window.addEventListener("keydown", function(event) {
     switch (event.keyCode) {
     case 33: // page up
@@ -71,6 +85,12 @@
     case 27: // escape
       currentSlide = 0;
       showCurrentSlide();
+      break;
+    case 70: // f
+      requestFullscreen(document.body);
+      break;
+    case 71: // g
+      exitFullscreen();
       break;
     default:
       return;
