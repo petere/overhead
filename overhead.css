@@ -23,14 +23,8 @@
  * Printing support
  */
 
-@media print {
-  .slide {
-    page-break-before: always;
-  }
-
-  .slide:first-of-type {
-    page-break-before: auto;
-  }
+.slide:not(:last-of-type) {
+  page-break-after: always;
 }
 
 
