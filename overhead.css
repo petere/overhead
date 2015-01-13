@@ -45,11 +45,11 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 80pt;
+  font-size: 182%;
 }
 
 h2 {
-  font-size: 60pt;
+  font-size: 136%;
 }
 
 @media screen {
