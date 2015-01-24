@@ -59,10 +59,24 @@ h2 {
   }
 }
 
-/* special formatting for title page */
+/* center title page horizontally and vertically */
 .slide:first-of-type {
-  padding-top: 3em;
+  margin: 0;
   text-align: center;
+  position: relative;
+  top: 38.2%;  /* "golden ratio" */
+  -webkit-transform: translateY(-50%);  /* for Safari */
+  transform: translateY(-50%);
+}
+
+/* needed on Firefox to get vertical alignment right */
+.slide:first-of-type h1 {
+  margin-top: 0;
+}
+
+/* possible artifacts from Markdown processing */
+body > p {
+  display: none;
 }
 
 /* highlight.js integration */
