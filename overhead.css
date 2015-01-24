@@ -34,7 +34,14 @@
 
 body {
   font-family: sans-serif;
-  font-size: 44pt;
+  font-size: 4.0vw;
+}
+
+@media print {
+  /* viewport units (vw) are apparently sometimes broken for printing */
+  body {
+    font-size: 32pt;
+  }
 }
 
 .slide {
