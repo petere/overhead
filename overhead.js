@@ -7,7 +7,7 @@
   function showCurrentSlide() {
     for (var i = 0; i < allSlides.length; i++) {
       var slide = allSlides[i];
-      if (i == currentSlide)
+      if (i === currentSlide)
         slide.classList.remove("hidden-slide");
       else
         slide.classList.add("hidden-slide");
@@ -29,7 +29,7 @@
 
   function handleHashChange() {
     var h = window.location.hash;
-    if (h.charAt(0) == "#")
+    if (h.charAt(0) === "#")
       h = h.substr(1);
     var x = parseInt(h);
     if (!isNaN(x))
@@ -43,11 +43,11 @@
   document.addEventListener("DOMContentLoaded", function() {
     // set document title from first page title
     if (!document.title) {
-      document.title = document.getElementsByTagName('h1')[0].textContent;
+      document.title = document.getElementsByTagName("h1")[0].textContent;
     }
 
     for (var i = 0; i < allSlides.length; i++) {
-      /*jshint loopfunc: true */
+      /*jshint loopfunc: true */ /*eslint no-loop-func: 0 */
       allSlides[i].onclick = function() {};  // hack to make clickable on iOS
     }
 
