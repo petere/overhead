@@ -38,9 +38,7 @@ body {
 }
 
 .slide {
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-top: 1em;
+  margin: 5% 10%;
 }
 
 h1 {
