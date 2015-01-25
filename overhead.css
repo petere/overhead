@@ -2,6 +2,10 @@
  * This is an integral part of the paging logic; don't break it.
  */
 
+body {
+  margin: 0;
+}
+
 @media screen {
   html {
     overflow: hidden;
@@ -9,8 +13,6 @@
 
   body {
     height: 100%;
-    width: 100%;
-    margin: 0;
   }
 
   .hidden-slide {
@@ -23,7 +25,12 @@
  * Printing support
  */
 
-.slide:not(:last-of-type) {
+@page {
+  margin: 0;
+  size: landscape;
+}
+
+.slide {
   page-break-after: always;
 }
 
@@ -57,11 +64,14 @@ h2 {
   font-size: 136%;
 }
 
+body {
+  color: white;
+  background-color: black;
+}
+
 @media screen {
-  /* white on black only on screen, not on printer */
   body {
-    color: white;
-    background-color: black;
+    /* gradient background doesn't work well in print */
     background: linear-gradient(black, rgb(20,20,41), rgb(82,77,97));
   }
 }
