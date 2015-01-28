@@ -6,27 +6,123 @@
 <div class="slide">
 <h1>Overhead</h1>
 <p>really simple slides with Markdown</p>
+<p>by <a href="http://peter.eisentraut.org">Peter Eisentraut</a></p>
 </div>
 <div class="slide">
 <h2>But why?</h2>
 </div>
 <div class="slide">
-<h2>I want</h2>
+<h2>Other presentation tools</h2>
 <ul>
-<li>simple syntax</li>
-<li>version-controllable</li>
-<li>standardized formats</li>
-<li>no complex external dependencies</li>
-<li>easy to customize</li>
-<li>but no customization necessary</li>
+<li>are too complicated for occasional speakers</li>
+<li>are bloated</li>
+<li>are ugly</li>
+<li>are hard to customize</li>
+<li>don’t render my content correctly</li>
+<li>keep breaking</li>
 </ul>
 </div>
 <div class="slide">
-<h2>I think I succeeded</h2>
+<p>I like writing, but producing slides is giving me angst.  Before every
+conference, I try a new tool, without much success.</p>
+</div>
+<div class="slide">
+<h2>Some things I have tried</h2>
 <ul>
-<li>Markdown/CommonMark</li>
-<li>&lt;100 lines of plain CSS</li>
-<li>&lt;100 lines of plain JavaScript</li>
+<li>LaTeX Beamer: complicated syntax, very fragile, huge software stack,
+not very agile, hard to customize, hard to include images, videos</li>
+</ul>
+<p>This is still a respectable tool, but we can do better.</p>
+</div>
+<div class="slide">
+<h2>Some things I have tried</h2>
+<ul>
+<li>DocBook Slides: verbose syntax, hard to customize, dated look</li>
+</ul>
+<p>I like the idea of standardized markup, but the implementation is
+dated and hard to work with.</p>
+</div>
+<div class="slide">
+<h2>Some things I have tried</h2>
+<ul>
+<li>OpenOffice: WYSIWYG is frustrating, consistent formatting is
+cumbersome</li>
+</ul>
+<p>Gets the job done, but not what I’m aiming for.</p>
+</div>
+<div class="slide">
+<h2>Some things I have tried</h2>
+<ul>
+<li><a href="https://github.com/puppetlabs/showoff">Showoff</a>: huge Ruby stack
+keeps breaking, nonstandard Markdown syntax, hard to fix things when
+the formatting doesn't work</li>
+</ul>
+<p>This was the right idea, but it kept breaking.</p>
+</div>
+<div class="slide">
+<h2>Some things I have tried</h2>
+<ul>
+<li><a href="http://lab.hakim.se/reveal-js/">reveal.js</a>: huge codebase, kept
+truncating my code samples, a lot of work to customize</li>
+</ul>
+<p>Again, right idea, but it shouldn’t be that complicated.</p>
+</div>
+<div class="slide">
+<h2>I don’t ask for much</h2>
+<ul>
+<li>tools that don’t break</li>
+<li>version-controllable</li>
+<li>easy to customize</li>
+<li>but no customization necessary</li>
+<li>simple syntax</li>
+<li>standardized formats</li>
+</ul>
+</div>
+<div class="slide">
+<h2>No dependencies</h2>
+<ul>
+<li>I don’t want to live in fear of having to debug a Ruby or NPM stack
+the night before a presentation.</li>
+<li>I’d like my presentation still work in two, three, or six years.</li>
+</ul>
+</div>
+<div class="slide">
+<h2>Standardized formats</h2>
+<ul>
+<li>Markdown and/or HTML</li>
+<li>let the browser handle the rest:
+<ul>
+<li>images</li>
+<li>videos</li>
+<li>math markup?</li>
+<li>your custom JavaScript magic?</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="slide">
+<h2>It’s not that hard!</h2>
+<ul>
+<li>standard Markdown/<a href="http://commonmark.org/">CommonMark</a> processor, plus</li>
+<li>&lt;100 lines of plain <a href="../overhead.css">CSS</a>, plus</li>
+<li>&lt;100 lines of plain <a href="../overhead.js">JavaScript</a>, plus</li>
+<li>browser</li>
+</ul>
+<p>= complete presentation tool</p>
+</div>
+<div class="slide">
+<h2>Example</h2>
+<p><a href="example.md">source of this presentation</a></p>
+</div>
+<div class="slide">
+<h2>Little code, lots of features</h2>
+<ul>
+<li>keyboard and mouse navigation</li>
+<li>supports some presenter remotes (if they produce key events)</li>
+<li>easy full screen mode</li>
+<li>direct links to slides (URL fragments)</li>
+<li>printing/PDF support</li>
+<li>source code highlighting</li>
 </ul>
 </div>
 <div class="slide">
@@ -39,5 +135,40 @@ end
 </code></pre>
 </div>
 <div class="slide">
-<h1>That was easy</h1>
+<h2>Not supported/not planned</h2>
+<ul>
+<li>speaker notes</li>
+<li>speaker clock</li>
+<li>incremental revealing</li>
+<li>slide transitions</li>
+</ul>
+</div>
+<div class="slide">
+<p>I have never seen Al Gore or Steve Jobs use speaker notes.  Just
+sayin’.</p>
+</div>
+<div class="slide">
+<h2>Final remark</h2>
+<ul>
+<li>Don’t write presentation slides like I did here.</li>
+<li>This is a “presentation” for reading on the web, not for presenting.</li>
+</ul>
+</div>
+<div class="slide">
+<h2>Resources</h2>
+<ul>
+<li><a href="http://overhead.xyz/">http://overhead.xyz/</a></li>
+<li><a href="http://github.com/petere/overhead">http://github.com/petere/overhead</a></li>
+</ul>
+</div>
+<div class="slide">
+<h2>Contact</h2>
+<ul>
+<li><a href="mailto:peter@eisentraut.org">peter@eisentraut.org</a></li>
+<li><a href="http://peter.eisentraut.org/">http://peter.eisentraut.org/</a></li>
+<li><a href="https://twitter.com/petereisentraut">@petereisentraut</a></li>
+</ul>
+</div>
+<div class="slide">
+<h1>Good bye</h1>
 </div>
