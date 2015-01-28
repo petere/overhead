@@ -99,7 +99,10 @@
     event.preventDefault();
   }, true);
 
-  window.addEventListener("mousedown", function(event) {
+  window.addEventListener("click", function(event) {
+    if (event.target.tagName === "A")
+      return;
+
     switch (event.button) {
     case 0: // left
       nextSlide();
@@ -110,7 +113,5 @@
     default:
       return;
     }
-
-    event.preventDefault();
-  }, true);
+  }, false);
 }());
