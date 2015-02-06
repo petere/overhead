@@ -16,7 +16,7 @@ body {
     width: 100%;
   }
 
-  .hidden-slide {
+  .slide:not(.current-slide) {
     display: none;
   }
 }

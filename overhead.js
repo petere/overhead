@@ -8,9 +8,9 @@
     for (var i = 0; i < allSlides.length; i++) {
       var slide = allSlides[i];
       if (i === currentSlide)
-        slide.classList.remove("hidden-slide");
+        slide.classList.add("current-slide");
       else
-        slide.classList.add("hidden-slide");
+        slide.classList.remove("current-slide");
     }
     window.location.hash = currentSlide > 0 ? currentSlide.toString() : "";
   }
