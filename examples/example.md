@@ -105,7 +105,7 @@ Again, right idea, but it shouldn’t be that complicated.
 
 - I don’t want to live in fear of having to debug a Ruby or NPM stack
   the night before a presentation.
-- I’d like my presentation still work in two, three, or six years.
+- I’d like my presentation to still work in two, three, or six years.
 
 </div>
 <div class="slide">
