@@ -32,8 +32,7 @@
     if (h.charAt(0) === "#")
       h = h.substr(1);
     var x = parseInt(h);
-    if (!isNaN(x))
-      currentSlide = x;
+    currentSlide = !isNaN(x) ? x : 0;
 
     showCurrentSlide();
   }
