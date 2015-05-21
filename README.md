@@ -65,7 +65,7 @@ appropriate):
 
 You can use just about any Markdown processor you want, but I
 recommend the [CommonMark](http://commonmark.org/)
-[reference implementation](https://github.com/jgm/CommonMark).
+[reference implementation](https://github.com/jgm/cmark).
 
     cmark presentation.md >presentation.html
 
