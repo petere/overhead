@@ -2,6 +2,7 @@
 
 - write your slides on plain Markdown, no special syntax
 - include one small JavaScript file and one small CSS file
+- display presentation in standard browser
 - no extra software required, nothing that can get screwed up
 
 Check out the [example](http://overhead.xyz/examples/example.html).
