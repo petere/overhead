@@ -4,7 +4,7 @@
 - include one small JavaScript file and one small CSS file
 - no extra software required, nothing that can get screwed up
 
-Check out the [example](http://petere.github.io/overhead/examples/example.html).
+Check out the [example](http://overhead.xyz/examples/example.html).
 
 ## Installation
 
@@ -74,7 +74,7 @@ you need to use the option `--process-html`.
 
 It's also possible to wire things up so that the Markdown is processed
 on the fly in the browser.  See
-[this example](http://petere.github.io/overhead/examples/example2.html).
+[this example](http://overhead.xyz/examples/example2.html).
 
 ## Presenting
 
@@ -98,7 +98,7 @@ to trigger on those `<code>` elements.
 
 I recommend checking out
 
-- [highlight.js](https://highlightjs.org/) (see [example](http://petere.github.io/overhead/examples/example.html))
+- [highlight.js](https://highlightjs.org/) (see [example](http://overhead.xyz/examples/example.html))
 - [Prism](http://prismjs.com/)
 
 You might have to do some work to make the themes of the highlighter
