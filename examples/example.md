@@ -15,6 +15,14 @@ by [Peter Eisentraut](http://peter.eisentraut.org)
 </div>
 <div class="slide">
 
+### Before we start
+
+- use cursor keys or mouse to navigate
+- press <key>f</key> for full screen
+
+</div>
+<div class="slide">
+
 ## But why?
 
 </div>
