@@ -113,4 +113,29 @@
       return;
     }
   }, false);
+
+  var startX, startY;
+
+  window.addEventListener("touchstart", function(event) {
+    startX = event.touches[0].clientX;
+    startY = event.touches[0].clientY;
+  }, false);
+
+  window.addEventListener("touchmove", function(event) {
+    if (!startX || !startY)
+      return;
+
+    var diffX = event.touches[0].clientX - startX;
+    var diffY = event.touches[0].clientY - startY;
+
+    if (Math.abs(diffX) > Math.abs(diffY)) {
+      if (diffX < 0)
+        nextSlide();  // right swipe
+      else
+        prevSlide();  // left swipe
+    }
+
+    startX = null;
+    startY = null;
+  }, false);
 }());

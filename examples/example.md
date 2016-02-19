@@ -134,7 +134,7 @@ Again, right idea, but it shouldn’t be that complicated.
 
 - standard Markdown/[CommonMark](http://commonmark.org/) processor, plus
 - <100 lines of plain [CSS](../overhead.css), plus
-- <100 lines of plain [JavaScript](../overhead.js), plus
+- <120 lines of plain [JavaScript](../overhead.js), plus
 - browser
 
 = complete presentation tool
@@ -151,7 +151,7 @@ Again, right idea, but it shouldn’t be that complicated.
 
 ## Little code, lots of features
 
-- keyboard and mouse navigation
+- keyboard, mouse, and touch navigation
 - supports some presenter remotes (if they produce key events)
 - easy full screen mode
 - direct links to slides (URL fragments)
