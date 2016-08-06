@@ -1,5 +1,5 @@
 check:
-	csslint --quiet --ignore=qualified-headings,unique-headings,compatible-vendor-prefixes overhead.css
+	csslint --quiet overhead.css
 	jshint overhead.js
 	eslint overhead.js
 	test `cat overhead.css | grep . | wc -l` -lt 100
