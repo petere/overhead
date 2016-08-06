@@ -134,7 +134,7 @@ Again, right idea, but it shouldn’t be that complicated.
 
 - standard Markdown/[CommonMark](http://commonmark.org/) processor, plus
 - <100 lines of plain [CSS](../overhead.css), plus
-- <120 lines of plain [JavaScript](../overhead.js), plus
+- <150 lines of plain [JavaScript](../overhead.js), plus
 - browser
 
 = complete presentation tool

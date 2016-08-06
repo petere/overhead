@@ -138,4 +138,29 @@
     startX = null;
     startY = null;
   }, false);
+
+  // https://davidwalsh.name/javascript-debounce-function
+  function debounce(func, wait, immediate) {
+    var timeout;
+    return function() {
+      var context = this, args = arguments;
+      var later = function() {
+        timeout = null;
+        if (!immediate) func.apply(context, args);
+      };
+      var callNow = immediate && !timeout;
+      clearTimeout(timeout);
+      timeout = setTimeout(later, wait);
+      if (callNow) func.apply(context, args);
+    };
+  }
+
+  window.addEventListener("wheel", debounce(function(event) {
+    if (event.deltaY > 0)
+      nextSlide();
+    else if (event.deltaY < 0)
+      prevSlide();
+
+    event.preventDefault();
+  }, 20, true), true);
 }());
