@@ -65,6 +65,11 @@ h2 {
   font-size: 136%;
 }
 
+img {
+  display: block;
+  margin: 0 auto;
+}
+
 body {
   background-color: black;
   color: white;
