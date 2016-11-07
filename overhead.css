@@ -83,7 +83,7 @@ body {
 }
 
 a {
-  color: white;
+  color: inherit;
 }
 
 @media (display-mode: fullscreen) {
