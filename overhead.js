@@ -46,7 +46,6 @@
     }
 
     for (var i = 0; i < allSlides.length; i++) {
-      /*eslint no-loop-func: 0 */
       allSlides[i].onclick = function() {};  // hack to make clickable on iOS
     }
 
