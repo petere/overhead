@@ -210,7 +210,7 @@ sayin’.
 
 - <peter@eisentraut.org>
 - <http://peter.eisentraut.org/>
-- [@petereisentraut](https://twitter.com/petereisentraut)
+- [@petereisentraut@mastodon.social](https://mastodon.social/@petereisentraut)
 
 </div>
 <div class="slide">
