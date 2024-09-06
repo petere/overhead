@@ -1,0 +1,8 @@
+task:
+  name: check
+  container:
+    image: node:latest
+  setup_script:
+    - npm install
+  check_script:
+    - make check
