@@ -65,13 +65,13 @@ appropriate):
 ## Processing
 
 You can use just about any Markdown processor you want, but I
-recommend the [CommonMark](http://commonmark.org/)
+recommend the [CommonMark](https://commonmark.org/)
 [reference implementation](https://github.com/jgm/cmark).
 
     cmark --unsafe presentation.md >presentation.html
 
 (The `--unsafe` option is to process embedded HTML.)
-If you use [MultiMarkdown](http://fletcherpenney.net/multimarkdown/),
+If you use [MultiMarkdown](https://fletcherpenney.net/multimarkdown/),
 you need to use the option `--process-html`.
 
 It's also possible to wire things up so that the Markdown is processed
@@ -101,7 +101,7 @@ to trigger on those `<code>` elements.
 I recommend checking out
 
 - [highlight.js](https://highlightjs.org/) (see [example](http://overhead.xyz/examples/example.html))
-- [Prism](http://prismjs.com/)
+- [Prism](https://prismjs.com/)
 
 You might have to do some work to make the themes of the highlighter
 match up with the colors of your presentation.  Here are some tips,

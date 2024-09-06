@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/dark.min.css">
-<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/dark.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 <link href="../overhead.css" rel="stylesheet">
@@ -11,7 +11,7 @@
 
 really simple slides with Markdown
 
-by [Peter Eisentraut](http://peter.eisentraut.org)
+by [Peter Eisentraut](https://peter.eisentraut.org)
 </div>
 <div class="slide">
 
@@ -89,7 +89,7 @@ This was the right idea, but it kept breaking.
 
 ## Some things I have tried
 
-- [reveal.js](http://lab.hakim.se/reveal-js/): huge codebase, kept
+- [reveal.js](https://revealjs.com/): huge codebase, kept
   truncating my code samples, a lot of work to customize
 
 Again, right idea, but it shouldn’t be that complicated.
@@ -132,7 +132,7 @@ Again, right idea, but it shouldn’t be that complicated.
 
 ## It’s not that hard!
 
-- standard Markdown/[CommonMark](http://commonmark.org/) processor, plus
+- standard Markdown/[CommonMark](https://commonmark.org/) processor, plus
 - <100 lines of plain [CSS](../overhead.css), plus
 - <120 lines of plain [JavaScript](../overhead.js), plus
 - browser
@@ -201,7 +201,7 @@ sayin’.
 ## Resources
 
 - <http://overhead.xyz/>
-- <http://github.com/petere/overhead>
+- <https://github.com/petere/overhead>
 
 </div>
 <div class="slide">
@@ -209,7 +209,7 @@ sayin’.
 ## Contact
 
 - <peter@eisentraut.org>
-- <http://peter.eisentraut.org/>
+- <https://peter.eisentraut.org/>
 - [@petereisentraut@mastodon.social](https://mastodon.social/@petereisentraut)
 
 </div>
