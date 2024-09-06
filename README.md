@@ -68,8 +68,9 @@ You can use just about any Markdown processor you want, but I
 recommend the [CommonMark](http://commonmark.org/)
 [reference implementation](https://github.com/jgm/cmark).
 
-    cmark presentation.md >presentation.html
+    cmark --unsafe presentation.md >presentation.html
 
+(The `--unsafe` option is to process embedded HTML.)
 If you use [MultiMarkdown](http://fletcherpenney.net/multimarkdown/),
 you need to use the option `--process-html`.
 

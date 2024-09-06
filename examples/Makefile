@@ -1,4 +1,4 @@
 all: example.html
 
 %.html: %.md
-	cmark $< >$@
+	cmark --unsafe $< >$@
