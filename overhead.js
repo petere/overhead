@@ -86,7 +86,7 @@
       showCurrentSlide();
       break;
     case 70: // f
-      requestFullscreen(document.body);
+      requestFullscreen(document.documentElement);
       break;
     case 71: // g
       exitFullscreen();
