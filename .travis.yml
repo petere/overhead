@@ -4,6 +4,5 @@ node_js:
 install:
   - npm install csslint
   - npm install eslint
-  - npm install jshint
 script:
   - make check
