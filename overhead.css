@@ -78,7 +78,7 @@ body {
 @media screen {
   body {
     /* gradient background doesn't work well in print */
-    background: linear-gradient(black, rgb(20,20,41), rgb(82,77,97));
+    background-image: linear-gradient(black, rgb(20,20,41), rgb(82,77,97));
   }
 }
 
