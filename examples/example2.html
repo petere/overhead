@@ -2,7 +2,7 @@
 <script src="http://spec.commonmark.org/js/commonmark.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  var reader = new commonmark.DocParser();
+  var reader = new commonmark.Parser();
   var writer = new commonmark.HtmlRenderer();
   var parsed = reader.parse(document.body.innerHTML);
   document.body.innerHTML = writer.render(parsed);
