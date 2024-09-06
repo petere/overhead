@@ -45,6 +45,17 @@ body {
   font-size: 4.0vw;
 }
 
+table {
+  border: 2px solid;
+  border-collapse: collapse;
+  font: inherit;
+}
+
+th, td {
+  border: 1px solid;
+  padding: 1.0vw;
+}
+
 @media print {
   /* viewport units (vw) are apparently sometimes broken for printing */
   body {

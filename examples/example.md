@@ -218,3 +218,24 @@ sayin’.
 # Good bye
 
 </div>
+<div class="slide">
+
+## Postscript: Table test
+
+<table>
+<caption>caption</caption>
+<tr>
+<th>th</th>
+<th>th</th>
+</tr>
+<tr>
+<td>td</td>
+<td>td</td>
+</tr>
+<tr>
+<td>td</td>
+<td>td</td>
+</tr>
+</table>
+
+</div>
