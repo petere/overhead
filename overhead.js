@@ -53,20 +53,6 @@
     handleHashChange();
   });
 
-  function requestFullscreen(element) {
-    var method = element.requestFullscreen || element.webkitRequestFullscreen || element.mozRequestFullScreen || element.msRequestFullscreen;
-
-    if (method)
-      method.call(element);
-  }
-
-  function exitFullscreen() {
-    var method = document.exitFullscreen || document.webkitExitFullscreen || document.mozCancelFullScreen || document.msExitFullscreen;
-
-    if (method)
-      method.call(document);
-  }
-
   window.addEventListener("keydown", function(event) {
     switch (event.keyCode) {
     case 33: // page up
@@ -86,10 +72,10 @@
       showCurrentSlide();
       break;
     case 70: // f
-      requestFullscreen(document.documentElement);
+      document.documentElement.requestFullscreen();
       break;
     case 71: // g
-      exitFullscreen();
+      document.exitFullscreen();
       break;
     default:
       return;
