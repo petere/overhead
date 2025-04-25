@@ -52,6 +52,11 @@
     handleHashChange();
   });
 
+  document.addEventListener("fullscreenchange", function() {
+    // hide cursor in full-screen mode
+    document.documentElement.style.cursor = document.fullscreenElement ? 'none' : 'auto';
+  });
+
   window.addEventListener("keydown", function(event) {
     switch (event.keyCode) {
     case 33: // page up
